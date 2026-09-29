@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<meta
+    name="description"
+    content="ONG Conecta Futuro promove inclusão digital, educação tecnológica e capacitação profissional gratuita, conectando pessoas em situação de vulnerabilidade a novas oportunidades de estudo e trabalho."
+>
+
+<meta
+    name="keywords"
+    content="ONG, Conecta Futuro, inclusão digital, educação, tecnologia, capacitação profissional, cursos gratuitos, programação, informática, empregabilidade, mercado de trabalho, inclusão social, oportunidades, voluntariado, educação tecnológica"
+>
+
+<meta
+    name="author"
+    content="Victor Moreira"
+>
+
+<meta
+    name="robots"
+    content="index, follow"
+>
+
+<meta
+    name="theme-color"
+    content="#044353"
+>
+
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+>
+
+<link
+    href="./img/favicon.png"
+    rel="icon"
+    type="image/png"
+>
+
+<link
+    rel="stylesheet"
+    href="./css/styles.css"
+>
+
+<script
+type="module"
+    src="./js/script.js"
+    
+></script>
+
+<title>Conecta Futuro</title>
+
+</head>
+
+<body>
+
+
+<!-- Link de acessibilidade -->
+
+<a
+    class="visually-hidden-focusable"
+    href="#conteudo-principal"
+>
+    Pular para o conteúdo principal
+</a>
+
+
+<!-- Cabeçalho e navegação -->
+
+<header class="site-header">
+
+    <nav
+        class="navbar navbar-expand-xl navbar-dark"
+        aria-label="Navegação principal"
+    >
+
+        <div class="container-fluid">
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal"
+                aria-expanded="false"
+                aria-label="Abrir menu de navegação"
+            >
+                <span
+                    class="navbar-toggler-icon"
+                    aria-hidden="true"
+                ></span>
+            </button>
+
+
+            <div
+                class="collapse navbar-collapse"
+                id="menuPrincipal"
+            >
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="./index.html"
+                            aria-current="page"
+                        >
+
+                            <img
+                                src="./img/menu/home-svgrepo-com.png"
+                                alt=""
+                                class="nav__icon"
+                                aria-hidden="true"
+                            >
+
+                            <span>Home</span>
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="./formulario.html"
+                        >
+
+                            <img
+                                src="./img/menu/annotate-tool-svgrepo-com.png"
+                                alt=""
+                                class="nav__icon"
+                                aria-hidden="true"
+                            >
+
+                            <span>Cadastro</span>
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="./projetos.html"
+                        >
+
+                            <img
+                                src="./img/menu/form-svgrepo-com.png"
+                                alt=""
+                                class="nav__icon"
+                                aria-hidden="true"
+                            >
+
+                            <span>Projetos</span>
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Alternância de tema -->
+
+            <button
+                type="button"
+                id="theme-toggle"
+                class="theme-toggle"
+                aria-label="Ativar modo escuro"
+                aria-pressed="false"
+            >
+
+                <span aria-hidden="true">
+                    🌙
+                </span>
+
+            </button>
+
+
+            <!-- Logo -->
+
+            <a
+                href="./index.html"
+                class="logo__link"
+                aria-label="Conecta Futuro - Página inicial"
+            >
+
+                <img
+                    src="./img/Logo.png"
+                    class="logo__conecta"
+                    alt="Logo da ONG Conecta Futuro"
+                >
+
+            </a>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- Conteúdo principal -->
+
+<main id="conteudo-principal">
+
+    <h1 class="visually-hidden">
+        Conecta Futuro
+    </h1>
+
+
+    <!-- Aviso de inscrições -->
+
+    <div
+        id="aviso-inscricoes"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+    >
+
+        <span id="texto-aviso"></span>
+
+    </div>
+
+
+    <!-- Sobre a ONG -->
+
+    <section
+        id="sobre"
+        aria-labelledby="sobre-titulo"
+    >
+
+        <img
+            src="./img/fachada.png"
+            class="sobre__img"
+            alt="Fachada da ONG Conecta Futuro"
+            loading="lazy"
+        >
+
+
+        <h2
+            id="sobre-titulo"
+            class="sobre__titulo"
+        >
+            Sobre a ONG
+        </h2>
+
+
+        <p class="sobre__paragrafo">
+
+            A <strong>Conecta Futuro</strong> é uma organização sem fins
+            lucrativos criada com o objetivo de ampliar o acesso à educação
+            e à tecnologia para pessoas em situação de vulnerabilidade social.
+
+        </p>
+
+
+        <p class="sobre__paragrafo">
+
+            A ONG oferece cursos gratuitos de informática, programação,
+            ferramentas digitais e preparação para o mercado de trabalho.
+
+        </p>
+
+
+        <p class="sobre__paragrafo">
+
+            Além das aulas presenciais, a organização pretende ampliar sua
+            atuação por meio de uma plataforma digital que permita aos alunos
+            acompanhar cursos, atividades, eventos e oportunidades de emprego.
+
+        </p>
+
+    </section>
+
+
+    <!-- Indicadores -->
+
+    <section
+        class="slider"
+        aria-labelledby="indicadores-titulo"
+    >
+
+        <h2
+            id="indicadores-titulo"
+            class="visually-hidden"
+        >
+            Indicadores da Conecta Futuro
+        </h2>
+
+
+        <!-- Controles dos slides -->
+
+        <fieldset class="slider__controls">
+
+            <legend class="visually-hidden">
+                Seleção dos indicadores
+            </legend>
+
+
+            <input
+                type="radio"
+                name="slider"
+                id="slide-1"
+                title="Slide 1"
+                checked
+                class="slider__nav"
+                aria-label="Mostrar indicador de pessoas capacitadas"
+            >
+
+
+            <input
+                type="radio"
+                name="slider"
+                id="slide-2"
+                title="Slide 2"
+                class="slider__nav"
+                aria-label="Mostrar indicador de presença no Brasil"
+            >
+
+
+            <input
+                type="radio"
+                name="slider"
+                id="slide-3"
+                title="Slide 3"
+                class="slider__nav"
+                aria-label="Mostrar indicador de voluntários"
+            >
+
+
+            <input
+                type="radio"
+                name="slider"
+                id="slide-4"
+                title="Slide 4"
+                class="slider__nav"
+                aria-label="Mostrar indicador de turmas"
+            >
+
+        </fieldset>
+
+
+        <!-- Cards dos indicadores -->
+
+        <div class="slider__inner">
+
+
+            <!-- Card 1 -->
+
+            <article class="slider__contents">
+
+                <div
+                    class="flip-card"
+                    aria-label="Indicador de pessoas capacitadas"
+                >
+
+                    <div class="flip-card__inner">
+
+
+                        <div class="flip-card__front">
+
+                            <img
+                                class="img-card"
+                                src="./img/indicadores/class-scene-svgrepo-com.png"
+                                alt="Ícone representando uma sala de aula"
+                            >
+
+                        </div>
+
+
+                        <div class="flip-card__back">
+
+                            <h3>
+                                +5000 pessoas capacitadas
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Card 2 -->
+
+            <article class="slider__contents">
+
+                <div
+                    class="flip-card"
+                    aria-label="Indicador de presença no Brasil"
+                >
+
+                    <div class="flip-card__inner">
+
+
+                        <div class="flip-card__front">
+
+                            <img
+                                class="img-card"
+                                src="./img/indicadores/brazil-brazil-svgrepo-com.png"
+                                alt="Ícone representando o Brasil"
+                            >
+
+                        </div>
+
+
+                        <div class="flip-card__back">
+
+                            <h3>
+                                Presente nos 26 estados do Brasil!
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Card 3 -->
+
+            <article class="slider__contents">
+
+                <div
+                    class="flip-card"
+                    aria-label="Indicador de voluntários"
+                >
+
+                    <div class="flip-card__inner">
+
+
+                        <div class="flip-card__front">
+
+                            <img
+                                class="img-card"
+                                src="./img/indicadores/people-nearby-svgrepo-com.png"
+                                alt="Ícone representando pessoas e voluntários"
+                            >
+
+                        </div>
+
+
+                        <div class="flip-card__back">
+
+                            <h3>
+                                +200 voluntários
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Card 4 -->
+
+            <article class="slider__contents">
+
+                <div
+                    class="flip-card"
+                    aria-label="Indicador de turmas formadas"
+                >
+
+                    <div class="flip-card__inner">
+
+
+                        <div class="flip-card__front">
+
+                            <img
+                                class="img-card"
+                                src="./img/indicadores/books-svgrepo-com.png"
+                                alt="Ícone representando livros e cursos"
+                            >
+
+                        </div>
+
+
+                        <div class="flip-card__back">
+
+                            <h3>
+                                +30 turmas formadas em nossos cursos
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+<!-- Rodapé -->
+
+<footer>
+
+    <section aria-labelledby="contato-titulo">
+
+        <h2
+            id="contato-titulo"
+            class="contato"
+        >
+            Entre em contato
+        </h2>
+
+
+        <address>
+
+            <p>
+
+                <strong>
+                    Conecta Futuro
+                </strong>
+
+                <br>
+
+                Rua das Oportunidades, 100
+
+                <br>
+
+                São Paulo - SP
+
+                <br>
+
+                CEP: 01000-000
+
+            </p>
+
+
+            <p>
+
+                E-mail:
+
+                <a
+                    href="mailto:contato@conectafuturo.org.br"
+                    aria-label="Enviar e-mail para Conecta Futuro"
+                >
+                    contato@conectafuturo.org.br
+                </a>
+
+            </p>
+
+
+            <p>
+
+                Telefone:
+
+                <a
+                    href="tel:+5511999999999"
+                    aria-label="Ligar para Conecta Futuro"
+                >
+                    (11) 99999-9999
+                </a>
+
+            </p>
+
+        </address>
+
+    </section>
+
+
+    <!-- Copyright -->
+
+    <div class="copy">
+
+        <p class="rodape">
+
+            &copy; 2026 Conecta Futuro.
+            Todos os direitos reservados.
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+></script>
+
+
+</body>
+
+</html>
