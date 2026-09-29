@@ -1307,7 +1307,7 @@ form button[type="submit"]:hover {
         background: transparent;
         border-radius: 0;
         box-shadow: none;
-        color: var(--cards);
+        color: var(--cor-principal);
         transform: none;
         backface-visibility: visible;
         -webkit-backface-visibility: visible;
@@ -1328,7 +1328,7 @@ form button[type="submit"]:hover {
 .flip-card__back h3,
 .flip-card__back p,
 .flip-card__back span {
-    color: #FFFFFF;
+    color: var(--cor-principal);
 }
 
     /* Cards de projetos */
