@@ -28,7 +28,6 @@ O projeto também busca aplicar, na prática, conceitos fundamentais de desenvol
 
 A aplicação está disponível em:
 
-<<<<<<< HEAD
 **[Conecta Futuro — GitHub Pages](https://TheV1k.github.io/conecta-futuro/)**
 
 ## 🖥️ Estrutura do projeto
@@ -65,7 +64,7 @@ conecta-futuro/
 ### 🏠 Página inicial
 
     
-  ![Demonstração da Home](./docs/gif/home.gif)
+  ![Demonstração da Home](docs/Gifs/home.gif)
 
 
 A página inicial apresenta a ONG, sua proposta de atuação, informações institucionais, indicadores de impacto e elementos interativos.
@@ -80,7 +79,7 @@ Entre os conteúdos apresentados estão:
 
 ### 💻 Projetos
 
-![Demonstração dos Projetos](./docs/gif/projetos.gif)
+![Demonstração dos Projetos](docs/Gifs/projetos.gif)
 
 A página apresenta os principais projetos desenvolvidos pela organização:
 
@@ -96,7 +95,7 @@ No desktop, os projetos são apresentados por meio de **cards interativos com ef
 ### 📝 Cadastro
 
 
-![Demonstração do Formulário](./docs/gif/formulario.gif)
+![Demonstração do Formulário](docs/Gifs/formulario.gif)
 
 
 A página de cadastro disponibiliza um formulário para preenchimento dos dados de interesse do usuário nos projetos da organização.
