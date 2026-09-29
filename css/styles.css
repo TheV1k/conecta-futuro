@@ -1271,22 +1271,21 @@ form button[type="submit"]:hover {
     }
 
     .flip-card__front {
-        position: relative;
-        inset: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 180px;
-        overflow: visible;
-        background: transparent;
-        border-radius: 0;
-        box-shadow: none;
-        transform: none;
-        backface-visibility: visible;
-        -webkit-backface-visibility: visible;
-    }
-
+    position: relative;
+    inset: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+    overflow: visible;
+    background-color: var(--cards);
+    border-radius: 20px 20px 0 0;
+    box-shadow: none;
+    transform: none;
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
+}
     .flip-card__front .img-card {
         width: 160px;
         height: 160px;
@@ -1294,25 +1293,24 @@ form button[type="submit"]:hover {
     }
 
     .flip-card__back {
-        position: relative;
-        inset: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-        min-height: 60px;
-        padding: 10px 20px;
-        overflow: visible;
-        background: transparent;
-        border-radius: 0;
-        box-shadow: none;
-        color: var(--cor-principal);
-        transform: none;
-        backface-visibility: visible;
-        -webkit-backface-visibility: visible;
-    }
-
+    position: relative;
+    inset: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    padding: 10px 20px;
+    overflow: visible;
+    background-color: var(--cards);
+    border-radius: 0 0 20px 20px;
+    box-shadow: none;
+    color: var(--texto-principal);
+    transform: none;
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
+}
     .flip-card__back h2 {
         margin: 0;
         padding: 0;
@@ -1323,12 +1321,26 @@ form button[type="submit"]:hover {
         text-align: center;
     }
 
+    
+
     .flip-card__back,
 .flip-card__back h2,
 .flip-card__back h3,
 .flip-card__back p,
 .flip-card__back span {
-    color: var(--cor-principal);
+    color: var(--texto-principal);
+}
+
+[data-theme="dark"] .flip-card__front .img-card {
+    filter: brightness(0) invert(1);
+}
+
+[data-theme="dark"] .flip-card__back,
+[data-theme="dark"] .flip-card__back h2,
+[data-theme="dark"] .flip-card__back h3,
+[data-theme="dark"] .flip-card__back p,
+[data-theme="dark"] .flip-card__back span {
+    color: #FFFFFF;
 }
 
     /* Cards de projetos */
