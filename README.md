@@ -28,7 +28,11 @@ O projeto também busca aplicar, na prática, conceitos fundamentais de desenvol
 
 A aplicação está disponível em:
 
+<<<<<<< HEAD
 **[Conecta Futuro — GitHub Pages](https://TheV1k.github.io/conecta-futuro/)**
+=======
+**[Conecta Futuro — GitHub Pages](https://thev1k.github.io/conecta-futuro/)**
+>>>>>>> 77fbaf0dd5e5bc8310de9dcfde4c6ca6dd3c5798
 
 ## 🖥️ Estrutura do projeto
 
